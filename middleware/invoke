@@ -1,4 +1,4 @@
 #!/bin/sh
-/usr/bin/invoke_app \
+/usr/bin/invoke_app "$@" -t spironb \
     -u anaconda2-4.1 \
     -C "start_jupyter -t -T @tool bin/spiro.ipynb"
